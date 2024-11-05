@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.lang.NonNull;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -61,6 +62,7 @@ public class ProductEntity {
         this.updatedAt = Instant.now();
     }
 
+    @NonNull
     private String generateSKU(){
         // Fecha de creacion
         String date = DateTimeFormatter.ofPattern("ddMMyyyy").format(createdAt.atZone(ZoneId.systemDefault()));
