@@ -2,7 +2,6 @@ package com.javidev.products.web.dto;
 
 import jakarta.validation.constraints.*;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
