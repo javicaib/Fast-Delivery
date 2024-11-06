@@ -1,7 +1,7 @@
 package com.javidev.products.application.services;
 
-import com.javidev.products.application.services.interfaces.ProductPersists;
-import com.javidev.products.application.services.interfaces.ProductValidations;
+import com.javidev.products.application.services.interfaces.product.ProductPersists;
+import com.javidev.products.application.services.interfaces.product.ProductValidations;
 import com.javidev.products.persistence.entities.ProductEntity;
 import com.javidev.products.persistence.repository.ProductRepository;
 import lombok.NonNull;
