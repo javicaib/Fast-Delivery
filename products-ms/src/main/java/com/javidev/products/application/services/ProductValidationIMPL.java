@@ -1,7 +1,7 @@
 package com.javidev.products.application.services;
 
 import com.javidev.products.application.exceptions.domain.ProductAlreadyExists;
-import com.javidev.products.application.services.interfaces.ProductValidations;
+import com.javidev.products.application.services.interfaces.product.ProductValidations;
 import com.javidev.products.persistence.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
