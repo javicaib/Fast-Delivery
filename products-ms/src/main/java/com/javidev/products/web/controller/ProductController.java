@@ -1,6 +1,6 @@
 package com.javidev.products.web.controller;
 
-import com.javidev.products.application.services.interfaces.ProductService;
+import com.javidev.products.application.services.interfaces.product.ProductService;
 import com.javidev.products.web.dto.ProductCreateDTO;
 import com.javidev.products.web.dto.ProductResponseDTO;
 import jakarta.validation.Valid;
