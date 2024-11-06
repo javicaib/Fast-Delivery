@@ -6,8 +6,6 @@ import com.javidev.products.persistence.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
 @Service
 @RequiredArgsConstructor
 public class CategoryServiceIMPL implements CategoryService {

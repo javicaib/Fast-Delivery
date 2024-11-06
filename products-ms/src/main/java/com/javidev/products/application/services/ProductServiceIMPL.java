@@ -1,6 +1,5 @@
 package com.javidev.products.application.services;
 
-import com.javidev.products.application.services.interfaces.category.CategoryPersists;
 import com.javidev.products.application.services.interfaces.category.CategoryService;
 import com.javidev.products.application.services.interfaces.mapper.MapperService;
 import com.javidev.products.application.services.interfaces.product.ProductPersists;
