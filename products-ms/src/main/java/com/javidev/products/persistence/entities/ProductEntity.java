@@ -11,6 +11,8 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -45,6 +47,10 @@ public class ProductEntity {
 
     @Column(name = "updated_at")
     private Instant updatedAt;
+
+    @ManyToOne(fetch = FetchType.LAZY,cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinColumn(name = "category_id", nullable = false)
+    CategoryEntity category;
 
     @PrePersist
     protected void onCreate() {
