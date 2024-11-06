@@ -1,4 +1,4 @@
-package com.javidev.products.application.services.interfaces;
+package com.javidev.products.application.services.interfaces.product;
 
 import com.javidev.products.web.dto.ProductCreateDTO;
 import com.javidev.products.web.dto.ProductResponseDTO;

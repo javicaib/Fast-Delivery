@@ -1,4 +1,4 @@
-package com.javidev.products.application.services.interfaces;
+package com.javidev.products.application.services.interfaces.mapper;
 
 import com.javidev.products.persistence.entities.ProductEntity;
 import com.javidev.products.web.dto.ProductResponseDTO;
