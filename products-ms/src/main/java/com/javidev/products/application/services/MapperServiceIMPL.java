@@ -1,6 +1,6 @@
 package com.javidev.products.application.services;
 
-import com.javidev.products.application.services.interfaces.MapperService;
+import com.javidev.products.application.services.interfaces.mapper.MapperService;
 import com.javidev.products.persistence.entities.ProductEntity;
 import com.javidev.products.web.dto.ProductResponseDTO;
 import org.springframework.lang.NonNull;
@@ -14,7 +14,8 @@ public class MapperServiceIMPL implements MapperService {
                 productEntity.getSku(),
                 productEntity.getName(),
                 productEntity.getDescription(),
-                productEntity.getPrice()
+                productEntity.getPrice(),
+                productEntity.getCategory().getName()
         );
     }
 }
